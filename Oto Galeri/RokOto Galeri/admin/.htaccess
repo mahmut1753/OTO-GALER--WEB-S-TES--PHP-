@@ -1,0 +1,16 @@
+RewriteEngine on
+
+ErrorDocument 404 http://localhost/rokoto/admin/404.php
+
+RewriteRule ^anasayfa$ anasayfa.php [NC,L]
+RewriteRule ^aracekle$ aracekle.php [NC,L]  
+RewriteRule ^arac-listesi$ arac-listesi.php [NC,L]
+RewriteRule ^markaekle$ markaekle.php [NC,L] 
+RewriteRule ^markalar$ markalar.php [NC,L] 
+RewriteRule ^model-ekle$ model-ekle.php [NC,L] 
+RewriteRule ^model-listele$ model-listele.php [NC,L] 
+RewriteRule ^index$ index.php [NC,L] 
+RewriteRule ^sliderekle$ sliderekle.php [NC,L] 
+RewriteRule ^mesajlar$ mesajlar.php [NC,L]
+RewriteRule ^yorumlar$ yorumlar.php [NC,L]
+ 
